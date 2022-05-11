@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+.teksti {
+  font-family: "Manrope";
+  text-align: center;
+  display: inline-block;
+  background-color: hsl(218, 21%, 25%);
+  height: 250px;
+  width: 460px;
+  position: absolute;
+  top: 300px;
+  left: 750px;
+  padding: 30px 50px 80px;
+  border-radius: 3%;
+}
+.advice {
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 0.1cm;
+  font-size: smaller;
+}
+.paragraph {
+  position: relative;
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+}
+.viiva1 {
+  position: absolute;
+  width: 5cm;
+  top: 250px;
+  margin-right: 260px;
+}
+.viiva2 {
+  position: absolute;
+  width: 5cm;
+  top: 250px;
+  margin-left: 260px;
+}
+.blob1 {
+  height: 0.5cm;
+  width: 0.18cm;
+  background-color: rgb(247, 238, 238);
+  position: absolute;
+  top: 547px;
+  left: 1030px;
+  border-radius: 30%;
+}
+
+.blob2 {
+  height: 0.5cm;
+  width: 0.18cm;
+  background-color: rgb(247, 238, 238);
+  position: absolute;
+  top: 547px;
+  left: 1014px;
+  border-radius: 30%;
+}
+.ball {
+  height: 1.8cm;
+  width: 1.8cm;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 620px;
+  left: 990px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+}
+.ball:hover {
+  box-shadow: 0 0 20px rgb(68, 238, 82);
+  cursor: pointer;
+}
+.kello{
+  font-size: 50px;
+  color:rgb(109, 243, 120);
+  position:absolute;
+  top: 200px;
+  left: 945px;
+
+}
+.names{
+  background-color: crimson;
+  height: 200px;
+  width: 300px;
+}
